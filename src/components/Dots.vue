@@ -6,7 +6,7 @@
           v-bind:style="{
               left: circle.coordX + 'px', 
               top: circle.coordY + 'px',
-              opacity: 1.1 - index / (circles.length - 1),
+              opacity: 1 - (0.2 * index),
           }">
       </div>
   </div>
